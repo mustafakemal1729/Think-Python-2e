@@ -1,4 +1,3 @@
-# Exercise 2-2.
 
 """
 2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount.

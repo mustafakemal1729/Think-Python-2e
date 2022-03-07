@@ -11,5 +11,6 @@ tion called len that returns the length of a string, so the value of len('monty'
 
 """
 
+
 def right_justify(s:str):
     print(' ' * (70 - len(s)) + s)

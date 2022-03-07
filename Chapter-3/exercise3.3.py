@@ -52,6 +52,7 @@ def draw_vertical():
 draw_grid()
 print()
 
+
 # Solution for exercise 3.3.2
 
 def draw_four_by_four_grid():

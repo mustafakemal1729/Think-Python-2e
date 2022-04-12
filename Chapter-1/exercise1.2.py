@@ -1,4 +1,4 @@
-# Exercise 1-1.
+# Exercise 1-2.
 
 """
 2. How many miles are there in 10 kilometers? Hint: there are 1.609 kilometers in a mile.

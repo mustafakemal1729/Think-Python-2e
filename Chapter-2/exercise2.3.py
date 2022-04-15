@@ -11,14 +11,13 @@ minutes = 60*seconds
 hours = 60*minutes
 
 # Convert run time into seconds
-
 start_time = 6*hours + 52*minutes
 easy_pace_per_mile = 8*minutes + 15
 tempo_per_mile = 7*minutes + 12
 
 total_run_time = (2*easy_pace_per_mile + 3*tempo_per_mile)
-
 final_time = start_time + total_run_time
+
 # Calculate arrival time
 return_home_time_hour = final_time // hours
 left_time = final_time % hours

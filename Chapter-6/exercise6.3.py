@@ -10,6 +10,25 @@ Write a function called is_palindrome that takes a string argument and returns T
 Remember that you can use the built-in function len to check the length of a string.
 """
 
-
 def is_palindrome(arg:str):
     return arg == arg[::-1]
+    
+    
+"""
+
+Another solution:
+
+def is_palindrome(arg:str):
+
+    arg = arg.casefold()
+    
+    # reverse the string
+    reverse = reversed(arg)
+
+    #check is_palindrome
+
+    if list(arg) == list(reverse):
+        print("The is is a palindrome.")
+    else:
+        print("The is not a palindrome.")
+"""

@@ -19,3 +19,12 @@ def gcd(a, b):
     else:
         remainder = a % b
         return gcd(b, remainder)
+
+
+
+"""
+Another solution is in the math module:
+The math.gcd() method returns the greatest common divisor of the two integers int1 and int2.
+import math
+math.gcd(a, b)
+"""

@@ -16,4 +16,3 @@ def is_power(a, b):
         return False
     else:
         return is_power(a/b, b)
-

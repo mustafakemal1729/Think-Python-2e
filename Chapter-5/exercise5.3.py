@@ -1,6 +1,7 @@
 # Exercise 5-3.
 
 """
+
 If you are given three sticks, you may or may not be able to arrange them in a triangle. 
 For example, if one of the sticks is 12 inches long and the other two are one inch long, 
 you will not be able to get the short sticks to meet in the middle. 
@@ -14,7 +15,6 @@ depending on whether you can or cannot form a triangle from sticks with the give
 
 2. Write a function that prompts the user to input three stick lengths, converts them to integers, 
 and uses is_triangle to check whether sticks with the given lengths can form a triangle.
-
 """
 
 # Solution for exercise 5.3.1
@@ -38,3 +38,5 @@ def get_values_and_check_is_triangle():
     c = int(input('Enter the length of side c: '))
 
     return is_triangle(a, b, c)
+
+

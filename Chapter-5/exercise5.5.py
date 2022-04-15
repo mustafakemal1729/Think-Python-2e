@@ -1,11 +1,8 @@
 # Exercise 5-5.
 
-import turtle
-
-t = turtle.Turtle()
-
 """
-Read the following function and see if you can figure out what it does (see the examples in Chapter 4). 
+
+Read the following function and see if you can figure out what it does. 
 Then run it and see if you got it right.
 
 def draw(t, length, n):
@@ -19,5 +16,4 @@ def draw(t, length, n):
     draw(t, length, n-1)
     t.lt(angle)
     t.bk(length*n)
-
 """

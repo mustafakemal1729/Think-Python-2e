@@ -3,17 +3,19 @@
 # I decided to look at Allen Downey's explanation for this question.
 
 """
-Write an appropriately general set of functions that can draw shapes as in Figure 4-2.
 
+Write an appropriately general set of functions that can draw shapes as in Figure 4-2.
 """
 
 import math
 import turtle
 
 
-bob = turtle.Turtle() 
+bob = turtle.Turtle()
+
 
 def draw_pie(t, n, r):
+
     # Draws a pie, then moves into position to the right.
     polypie(t, n, r)
     t.penup()
@@ -22,16 +24,17 @@ def draw_pie(t, n, r):
 
 
 def polypie(t, n, r):
+
     # Draws a pie divided into radial segments.
-    angle = 360/ n
+    angle = 360 / n
     for _ in range(n):
-        isosceles(t, r, angle/ 2)
+        isosceles(t, r, angle / 2)
         t.left(angle)
 
 
 def isosceles(t, r, angle):
-    # Draws an icosceles triangle.
 
+    # Draws an icosceles triangle.
     y = r * math.sin(angle * math.pi / 180)
 
     t.right(angle)

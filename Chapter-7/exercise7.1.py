@@ -40,6 +40,3 @@ def test_square_root(n_range):
     for i in range(1, n_range):
         print(i, mysqrt(i), math.sqrt(i), abs(math.sqrt(i) - mysqrt(i)), end='\t\n' )
 
-
-
-

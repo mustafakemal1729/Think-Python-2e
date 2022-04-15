@@ -29,4 +29,3 @@ def eval_loop():
     
     return to_evaluate
 
-

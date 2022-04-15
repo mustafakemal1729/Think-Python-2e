@@ -4,6 +4,7 @@
 
 The built-in function eval takes a string and evaluates it using the Python interpreter.
 For example:
+
         >>> eval('1 + 2 * 3')
         7
         >>> import math
@@ -27,3 +28,5 @@ def eval_loop():
         print(to_evaluate)
     
     return to_evaluate
+
+

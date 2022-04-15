@@ -30,8 +30,7 @@ def estimate_pi():
     last_term = 1
     while last_term > 1e-15:
 
-        last_term = ((factorial(4 * k)) * (1103 + 26390 * (k))) / \
-            ((factorial(k) ** 4) * (396 ** (4 * k)))
+        last_term = ((factorial(4 * k)) * (1103 + 26390 * (k))) / ((factorial(k) ** 4) * (396 ** (4 * k)))
         k += 1.0
         induction += last_term
 
